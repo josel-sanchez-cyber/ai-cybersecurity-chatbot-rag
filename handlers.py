@@ -16,7 +16,7 @@ def procesar_mensaje(bot, message):
         if not respuesta:
             respuesta = ejecutar_cortex(pregunta)
             if not respuesta.strip():
-                respuesta = "🤖 No recibí una respuesta válida de la IA. Intenta con otro mensaje."
+                respuesta = "🤖 No recibí una respuesta válida. Intenta con otro mensaje."
 
         bot.reply_to(message, respuesta)
 
