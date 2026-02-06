@@ -1,0 +1,5 @@
+telebot
+chromadb
+pandas
+numpy
+sentence-transformers
