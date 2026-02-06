@@ -13,5 +13,5 @@ def handle_message(message):
     procesar_mensaje(bot, message)
 
 if __name__ == '__main__':
-    print("🤖 Bot_Segurmática en ejecución... (Detener con Ctrl+C)")
+    print("🤖")
     bot.infinity_polling()
