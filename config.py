@@ -7,4 +7,4 @@ CSV_TRAIN_FILE = "./train.csv"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 EMBEDDING_DISTANCE_THRESHOLD = 0.35
 
-SYSTEM_PROMPT = """ Instrucción del sistema para condicionar una mejor respuesta del LLM"""
+SYSTEM_PROMPT = """ Instrucción del sistema para condicionar una mejor respuesta del LLM """
