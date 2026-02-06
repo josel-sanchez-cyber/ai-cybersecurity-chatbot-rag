@@ -79,4 +79,28 @@ This approach improves accuracy and reduces hallucinations compared to standalon
 ---
 
 ## 📁 Project Structure
+```
+ai-cybersecurity-chatbot-rag/
+│
+├── src/
+│   ├── bot.py
+│   ├── config.py
+│   ├── cortex_runner.py
+│   ├── handlers.py
+│   ├── knowledge_base.py
+│   └── utils.py
+│
+├── data/
+│   └── sample_knowledge_base.csv
+│
+├── docs/
+│   └── architecture.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+---
+## Author
+José Luis Sánchez Tamayo
 
